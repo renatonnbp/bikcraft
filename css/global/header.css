@@ -8,11 +8,8 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {
@@ -27,7 +24,7 @@
   position: relative;
 }
 
-.header-menu a:after {
+.header-menu a::after {
   content: '';
   display: block;
   height: 2px;
@@ -38,7 +35,7 @@
   position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after {
   width: 100%;
 }
 
